@@ -1,0 +1,81 @@
+<!doctype html>
+ <html>
+ <head>
+   <title>쟈아스-공연 영상</title>
+   <meta charset="utf-8">
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140006610-2"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'UA-140006610-2');
+   </script>
+   <style>
+     body{
+       margin:0;
+     }
+     a {
+       color:black;
+       text-decoration: none;
+     }
+     h1 {
+       font-size:45px;
+       text-align: center;
+       border-bottom:1px solid gray;
+       margin:0;
+       padding:20px;
+     }
+     ol{
+       border-right:1px solid gray;
+       width:150px;
+       margin:0;
+       padding:20px;
+     }
+     #grid{
+       display: grid;
+       grid-template-columns: 200px 1fr;
+     }
+     #grid ol{
+       padding-left:33px;
+     }
+     #grid #article{
+       padding-left:25px;
+     }
+   </style>
+ </head>
+ <body>
+   <h1><a href="index.html">쟈아스</a></h1>
+   <div id="grid">
+     <ol>
+       <li><a href="1.html">쟈아스 소개</a></li>
+       <li><a href="2.html">멤버 소개</a></li>
+       <li><a href="3.html">쟈아스가 걸어온 길</a></li>
+       <li><a href="4.html">공연 영상</a></li>
+     </ol>
+     <div id="article">
+         <h2><a href="4.html">공연 영상</a></h2>
+         <h3>[2018 이우면 구나 1리 공연 2일차] The great escape </h3>
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1056664794493001%2Fvideos%2F2169023136748488%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe><!-- 라이브리 시티 설치 코드 -->
+          <div id="lv-container" data-id="city" data-uid="MTAyMC80NDUwNS8yMTAzNg==">
+          	<script type="text/javascript">
+             (function(d, s) {
+                 var j, e = d.getElementsByTagName(s)[0];
+
+                 if (typeof LivereTower === 'function') { return; }
+
+                 j = d.createElement(s);
+                 j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                 j.async = true;
+
+                 e.parentNode.insertBefore(j, e);
+             })(document, 'script');
+          	</script>
+          <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+          </div>
+          <!-- 시티 설치 코드 끝 -->
+       </div>
+   </div>
+   </body>
+ </html>

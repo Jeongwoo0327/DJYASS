@@ -28,6 +28,20 @@ ol{
 #grid #article{
   padding-left:25px;
 }
+#grid #video1{
+  padding-left: 15px;
+}
+#grid #video2{
+  padding-left: 15px;
+}
+#grid #video{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#grid #video{
+  padding: 0;
+  border: 0;
+}
 @media(max-width:800px){
   #grid{
     display: block;
@@ -38,4 +52,8 @@ ol{
   h1 {
     border-bottom:none;
   }
- }
+  #grid #video{
+    display: grid;
+    grid-template-columns: none;
+  }
+}
